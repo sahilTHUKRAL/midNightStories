@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Story Click</title>
+    <script>
+        // List of 365 story links
+        const storyLinks = [
+            "https://ririro.com/alice-in-wonderland/",
+            "https://ririro.com/the-little-mermaid/",
+            "https://ririro.com/the-wizard-of-oz/",
+            "https://ririro.com/the-tale-of-peter-rabbit/",
+            "https://ririro.com/jack-and-the-beanstalk/",
+            "https://ririro.com/the-three-little-pigs/",
+            "https://ririro.com/cinderella/",
+            "https://ririro.com/snow-white-and-the-seven-dwarfs/",
+            "https://ririro.com/hansel-and-gretel/",
+            "https://ririro.com/the-ugly-duckling/",
+            "https://ririro.com/puss-in-boots/",
+            "https://ririro.com/the-gingerbread-man/",
+            "https://ririro.com/the-princess-and-the-pea/",
+            "https://ririro.com/the-pied-piper-of-hamelin/",
+            "https://ririro.com/the-frog-prince/",
+            "https://ririro.com/rapunzel/",
+            "https://ririro.com/little-red-riding-hood/",
+            "https://ririro.com/goldilocks-and-the-three-bears/",
+            "https://ririro.com/rumpelstiltskin/",
+            "https://ririro.com/sleeping-beauty/",
+            "https://ririro.com/pinocchio/",
+            "https://ririro.com/aladdin-and-the-magic-lamp/",
+            "https://ririro.com/the-emperors-new-clothes/",
+            "https://ririro.com/the-boy-who-cried-wolf/",
+            "https://ririro.com/the-golden-goose/",
+            "https://ririro.com/the-tortoise-and-the-hare/",
+            "https://ririro.com/the-fox-and-the-grapes/",
+            "https://ririro.com/the-lion-and-the-mouse/",
+            "https://ririro.com/the-ants-and-the-grasshopper/",
+            "https://ririro.com/the-thirsty-crow/",
+            "https://ririro.com/the-goose-that-laid-the-golden-eggs/",
+            "https://ririro.com/the-town-mouse-and-the-country-mouse/",
+            "https://ririro.com/the-hare-and-the-tortoise/",
+            "https://ririro.com/the-happy-prince/",
+            "https://ririro.com/the-millers-daughter/",
+            "https://ririro.com/the-kings-new-clothes/",
+            "https://ririro.com/the-mermaid-and-the-pearl/",
+            "https://ririro.com/the-brave-little-tailor/",
+            "https://ririro.com/the-little-match-girl/",
+            "https://ririro.com/the-snow-queen/",
+            "https://ririro.com/the-selfish-giant/",
+            "https://ririro.com/the-velveteen-rabbit/",
+            "https://ririro.com/the-secret-garden/",
+            "https://ririro.com/the-wind-in-the-willows/",
+            "https://ririro.com/the-adventures-of-tom-sawyer/",
+            "https://ririro.com/the-jungle-book/",
+            "https://ririro.com/black-beauty/",
+            "https://ririro.com/charlottes-web/",
+            "https://ririro.com/the-treasure-island/",
+            "https://ririro.com/robin-hood/",
+            "https://ririro.com/king-arthur-and-the-knights-of-the-round-table/",
+            "https://ririro.com/the-pied-piper/",
+            "https://ririro.com/the-fox-and-the-stork/",
+            "https://ririro.com/the-wolf-in-sheeps-clothing/",
+            "https://ririro.com/the-bundle-of-sticks/",
+            "https://ririro.com/the-lazy-donkey/",
+            "https://ririro.com/the-golden-touch/",
+            "https://ririro.com/the-lost-princess/",
+            "https://ririro.com/the-secret-of-the-magic-lamp/",
+            "https://ririro.com/the-white-horse/",
+            "https://ririro.com/the-brave-knight/",
+            "https://ririro.com/the-wise-owl/",
+            "https://ririro.com/the-forest-adventure/",
+            "https://ririro.com/the-magic-fish/",
+            "https://ririro.com/the-hidden-treasure/",
+            "https://ririro.com/the-wishing-well/",
+            "https://ririro.com/the-little-dragon/",
+            "https://ririro.com/the-woodcutter-and-the-fairy/",
+            "https://ririro.com/the-magic-carpet-ride/",
+            "https://ririro.com/the-phantom-ship/",
+            "https://ririro.com/the-lost-city/",
+            "https://ririro.com/the-hidden-castle/",
+            "https://ririro.com/the-forgotten-kingdom/",
+            "https://ririro.com/the-enchanted-garden/",
+            "https://ririro.com/the-mysterious-cave/",
+            "https://ririro.com/the-ghostly-tale/",
+            "https://ririro.com/the-wizard-and-the-apprentice/",
+            "https://ririro.com/the-magic-tree/",
+            "https://ririro.com/the-rabbit-and-the-turtle/",
+            "https://ririro.com/the-hunters-tale/",
+            "https://ririro.com/the-prince-and-the-pauper/",
+            "https://ririro.com/the-brave-warrior/",
+            "https://ririro.com/the-mystic-river/"
+        ]; // (Add 365 links here)
+
+        function goToRandomStory() {
+            const randomStory = storyLinks[Math.floor(Math.random() * storyLinks.length)];
+            window.location.href = randomStory;
+        }
+    </script>
+</head>
+<body onload="goToRandomStory()">
+    <h1>Redirecting to a random story...</h1>
+</body>
+</html>
